@@ -1,6 +1,6 @@
 " Requited dependencies:
 " 1) ClangFormat (sudo apt install clang-format)
-" 2) Vim 8.2 or newer (sudo add-apt-repository ppa:jonathonf.vim && sudo apt
+" 2) Vim 8.2 or newer (sudo add-apt-repository ppa:jonathonf/vim && sudo apt update && sudo apt
 " update && sudo apt install vim)
 " 3) Nodejs >= 10.12 (curl -sL install-node.now.sh/1ts | bash)
 " 4) powerline (pip install git+git://github.com/Lokaltog/powerline)
