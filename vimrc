@@ -4,6 +4,7 @@
 " update && sudo apt install vim)
 " 3) Nodejs >= 10.12 (curl -sL install-node.now.sh/1ts | bash)
 " 4) powerline (pip install git+git://github.com/Lokaltog/powerline)
+" 5) ccls (sudo snap install ccls --classic)
 
 "==================================="
 "=====set SPACE as the <LEADER>====="
