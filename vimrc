@@ -20,8 +20,15 @@ let g:gruvbox_contrast_dark = 'soft'
 "=====enable powerline====="
 "=========================="
 set rtp+=~/anaconda3/lib/python3.8/site-packages/powerline/bindings/vim/
-set laststatus=2
 set t_Co=256
+
+if filereadable("/usr/share/powerline/bindings/bash/powerline.sh")
+  python3 from powerline.vim import setup as powerline_setup
+  python3 powerline_setup()
+  python3 del powerline_setup
+endif
+
+set laststatus=2
 
 "============================"
 "=====enable mouse click====="
