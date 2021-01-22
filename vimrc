@@ -2,7 +2,7 @@
 " 1) ClangFormat (sudo apt install clang-format)
 " 2) Vim 8.2 or newer (sudo add-apt-repository ppa:jonathonf/vim && sudo apt update && sudo apt
 " update && sudo apt install vim)
-" 3) Nodejs >= 10.12 (curl -sL install-node.now.sh/1ts | bash)
+" 3) Nodejs >= 10.12 (curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -)
 " 4) powerline (pip install git+git://github.com/Lokaltog/powerline)
 " 5) ccls (sudo snap install ccls --classic)
 
